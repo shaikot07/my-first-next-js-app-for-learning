@@ -10,7 +10,7 @@ export default function Home() {
       <Link href='/about'>
         <button className="btn btn-primary text-center">Go to about  pages</button>
       </Link>
-
+        <Image width={200} height={200} src="https://i.ibb.co/F7rnZp0/18.webp" alt="tt"/>
       </div>
     </div>
   );
