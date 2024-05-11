@@ -12,7 +12,7 @@ export default function Home() {
       </Link>
         <Image width={200} height={200} src="https://i.ibb.co/F7rnZp0/18.webp" alt="tt"/>
       </div>
-      <Link href="/post">Go to post Route </Link>
+      <Link className="btn btn-primary" href="/post">Go to post Route </Link>
     </div>
   );
 }
