@@ -8,7 +8,7 @@ export async function generateStaticParams() {
 
     const ids = posts.map((post)=>{
         return{
-            id:post.id ,
+            id:post.id + "",
         }
     })
     console.log(ids);
