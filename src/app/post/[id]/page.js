@@ -11,7 +11,7 @@ export async function generateStaticParams() {
             id:post.id + "",
         }
     })
-    console.log(ids);
+    // console.log(ids);
     return ids;
   }
   
@@ -26,8 +26,8 @@ const DetailPage = async ({ params }) => {
     const {id, title,description,likeCount}=postDetals || {}
     return (
         <div className='max-w-6xl mx-auto bg-slate-300 p-5'>
-            <h2 className='text-2xl mt-8 text-center text-purple-700 font-semibold'>this is a detail Post ID: {id}</h2>
-            <div>
+            <h2 className='text-2xl mt-8 text-center text-purple-700 font-semibold'>This Is A Detail Post ID: {id}</h2>
+            <div className='mt-6'>
                 <div className="card w-[50%] mx-auto bg-primary text-primary-content">
                     <div className="card-body">
                         <h2 className="card-title">Post Title: {title} </h2>
@@ -35,7 +35,7 @@ const DetailPage = async ({ params }) => {
                         <p className='text-1xl font-semibold'>Like Count: {likeCount} </p>
                         <div className="card-actions justify-end">
                             <Link href='/post'>
-                            <button className="btn">Back to All post</button>
+                            <button className="btn btn-accent text-white">Back to All post</button>
                             </Link>
                         </div>
                     </div>
