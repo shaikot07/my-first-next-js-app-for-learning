@@ -36,6 +36,57 @@
           "description": "Maecenas vel ex vel libero sollicitudin dignissim. Integer in libero sit amet justo pellentesque bibendum. Vestibulum eget diam sit amet enim dignissim dapibus vitae et quam. Fusce vitae tincidunt nulla.",
           "likeCount": 18
         }
-      ]
-      
+      ],
+     "blog":[
+      {
+        "id": 1,
+        "title": "Blog Title 1",
+        "blogText": "This is a blog post. It is a very interesting blog post.",
+        "likeCount": 10,
+        "imageUrl": "https://unsplash.com/photos/an-empty-subway-station-with-no-people-in-it-ynE2q77odsI"
+      },
+      {
+        "id": 2,
+        "title": "Blog Title 2",
+        "blogText": "This is another blog post. It is also very interesting.",
+        "likeCount": 20,
+        "imageUrl": "**[Replace with real image link]**"
+      },
+      {
+        "id": 3,
+        "title": "Blog Title 3",
+        "blogText": "This is a third blog post. You guessed it, it is interesting as well.",
+        "likeCount": 30,
+        "imageUrl": "**[Replace with real image link]**"
+      },
+      {
+        "id": 4,
+        "title": "Blog Title 4",
+        "blogText": "Here comes the fourth blog post. Still interesting, I promise.",
+        "likeCount": 40,
+        "imageUrl": "**[Replace with real image link]**"
+      },
+      {
+        "id": 5,
+        "title": "Blog Title 5",
+        "blogText": "The fifth blog post arrives. Can you keep up with the interest?",
+        "likeCount": 50,
+        "imageUrl": "**[Replace with real image link]**"
+      },
+      {
+        "id": 6,
+        "title": "Blog Title 6",
+        "blogText": "The sixth blog post. Almost there! Still interesting, don't worry.",
+        "likeCount": 60,
+        "imageUrl": "**[Replace with real image link]**"
+      },
+      {
+        "id": 7,
+        "title": "Blog Title 7",
+        "blogText": "This is the last blog post. It was a journey full of interest.",
+        "likeCount": 70,
+        "imageUrl": "**[Replace with real image link]**"
+      }
+    ]
+     
 }
