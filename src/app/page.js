@@ -1,3 +1,5 @@
+
+import Blog from "@/component/blog/Blog";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -13,6 +15,9 @@ export default function Home() {
         <Image width={200} height={200} src="https://i.ibb.co/F7rnZp0/18.webp" alt="tt"/>
       </div>
       <Link className="btn btn-primary" href="/post">Go to post Route </Link>
+      <div>
+        <Blog></Blog>
+      </div>
     </div>
   );
 }
