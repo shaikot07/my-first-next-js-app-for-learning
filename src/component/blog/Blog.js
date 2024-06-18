@@ -12,7 +12,7 @@ const Blog = () => {
     },[])
     return (
         <div>
-            
+            this us blog
         </div>
     );
 };
