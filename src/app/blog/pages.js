@@ -4,7 +4,10 @@ import React from 'react';
 const pages = () => {
     return (
         <div>
-            <Blog/>
+            <h1 className='text-base font-semibold text-purple-900'>This is blog mother div</h1>
+            <div>
+                <Blog />
+            </div>
         </div>
     );
 };
