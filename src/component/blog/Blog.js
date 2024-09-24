@@ -12,7 +12,11 @@ const Blog = () => {
     },[])
     return (
         <div>
-            this us blog
+           {blogs.map(blog=>{
+            <div>
+                <h2>{blog.title}</h2>
+            </div>
+           })}
         </div>
     );
 };
